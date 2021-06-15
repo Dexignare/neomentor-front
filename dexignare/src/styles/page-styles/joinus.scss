@@ -1,0 +1,91 @@
+@import '../general-styles/base.scss';
+//NAVBAR AND LOGO
+
+.navigation{
+
+    height: 10vh;
+    padding: 0 4.5rem;
+    &__nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__logo{
+        height: 2.4rem;
+        width: 18rem;
+    }
+
+    &__login{
+        text-decoration: none;
+    }   
+
+    &__link{
+        text-decoration: none;
+    }
+}
+
+
+//OPTIONS SECTION
+
+.section-options{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+    &__heading{
+        text-align: center;
+        display: inline-block;
+        max-width:32rem;
+    }
+}
+
+.options{
+    
+    min-width: 42.6rem;
+    min-height: 11.1rem;
+    text-decoration: none;
+
+    &__button{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid $color-border-grey;  
+        border-radius: .8rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        transition: all .6s;
+
+        &:hover{
+            background-color: $color-purple;
+            box-shadow: 0px 3px 40px $color-box-shadow;
+        }
+    }
+
+    &__arrow{
+        font-size: 2.5rem;
+    }
+}
+
+
+//CONTINUE
+
+.continue{
+
+    display: flex;
+
+    &__btn{
+        display: flex;
+        flex-grow: 1;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 2rem;
+        width: 39.3rem;
+        height: 2.8rem;
+        color: $color-white;
+        font-size: 1.6rem;
+        background-color: $color-purple;
+        border-radius: 1rem;
+    }
+}

@@ -1,0 +1,13 @@
+Link to icons(Uicons) to be used (except home and about page):
+
+
+Rounded-Regular UI Fonts:
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css')
+
+
+
+
+
+https://www.flaticon.com/uicons?k=1622790769279

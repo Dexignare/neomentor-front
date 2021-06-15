@@ -1,0 +1,46 @@
+$color-grey-heading: #626262;
+$color-white:#fff;
+$color-secondary-white:#C9C9C9;
+$color-carbon-base:rgba(30, 30, 30, 1);
+$color-border-grey:#E9E9E9;
+$color-box-shadow:rgba(0, 0, 0, 0.1);
+$color-purple:rgba(101, 82, 255, 1);
+$color-black:#000;
+$color-base-background: #E5E5E5;
+$color-signup-landing-hover:#4D3BDF;
+$color-blue:#4D3BDF;
+$color-blue-background:#6552FF;
+$color-yellow:rgba(255, 191, 73, 1);
+
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-SemiBold.ttf') format('truetype');
+}
+
+@mixin Pseudo{
+    background-color: $color-border-grey;
+    content: "";
+    width: 17.2rem;
+    border: 1px solid $color-secondary-white;
+}
+
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+    padding: 2rem 0
+}

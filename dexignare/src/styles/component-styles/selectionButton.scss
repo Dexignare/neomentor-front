@@ -1,0 +1,47 @@
+@import "../general-styles/base.scss";
+
+.btn{
+    
+
+    &__content{
+        max-width: 29.7rem;
+        max-height: 15.1rem;
+        padding: 2rem 1rem;
+        border-radius: 0.8rem;
+        color: $color-carbon-base;
+        
+        &:hover{
+            color: $color-white;
+        }
+    }
+
+    &__link{
+        text-decoration: none;
+        color: inherit;
+        position: relative;
+    }
+
+    &__flex-container{
+        display: flex;
+        color: inherit;
+        
+    }
+
+    &__icon{
+        height: 2rem;
+        width: 2rem;
+        transform: translateY(5px);
+    }
+
+    &__arrow{
+        position: absolute;
+        top:3.5rem;
+        left:32.4rem;
+        font-size: 2.4rem;
+    }
+
+}
+
+.color{
+    color: $color-grey-heading;
+}
